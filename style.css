@@ -1,0 +1,47 @@
+header{
+    width:100%;
+    background-color:#1b1b32;
+    height:55px;
+    display:flex;
+    justify-content:space-evenly
+}
+
+h1,h2{
+    font-family: "Verdana",tahoma;
+}
+
+h1{
+    color:#f1be32;
+    text-align:center;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+h2{
+    border-bottom:4px solid #dfdfe2;
+}
+
+#logo{
+    aspect-ratio:35/4;
+    width:max(250px,13vw);
+    background-color: #0a0a32;
+    padding:0.8rem;
+}
+
+section{
+    
+    margin-top:20px;
+
+}
+
+span{
+    width:1px;
+    height:1px;
+    position: fixed;
+    clip:rect(0,0,0,0);
+    overflow: hidden;
+    white-space:nowrap;
+}
