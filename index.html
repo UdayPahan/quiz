@@ -45,45 +45,46 @@
             
             <section role="region" aria-labelledby="html-questions">
                 <h2 id="html-questions">HTML</h2>
-
-                <p>1</p>
-               <fieldset>
-                <legend>The rel attribute specifies a relationship between the current document and another document, such as a style sheet.
-
-                </legend>
-                <ul>
-                    <li><input name="q1" value="true" type="radio" id="q1-a1"><label for="q1-a1">True</label></li>
-                    <li><input name="q1" value="false" type="radio" id="q1-a2" ><label for="q1-a2">False</label></li>
-                </ul>
-               </fieldset>
+                <div class="question-block">
+                    <p>1</p>
+                    <fieldset class="question">
+                        <legend>The rel attribute specifies a relationship between the current document and another document, such as a style sheet.</legend>
+                        <ul class="answer-list">
+                            <li><input name="q1" value="true" type="radio" id="q1-a1"><label for="q1-a1">True</label></li>
+                            <li><input name="q1" value="false" type="radio" id="q1-a2" ><label for="q1-a2">False</label></li>
+                        </ul>
+                    </fieldset>
+                </div>
 
                 <p>2</p>
-
-               <fieldset>
-                <legend>Linking to an external style sheet allows you to have hyperlinks from your page to the World Wide Web.</legend>
-                <ul>
-                    <li><input type="radio" id="q2-a1" value="true" name="q2"><label>True</label></li>
-                    <li><input type="radio" id="q2-a2" value="false" name="q2"><label>False</label></li>
-                </ul>
-               </fieldset>
+                <div class="question-block"> 
+                    <fieldset class="question">
+                        <legend>Linking to an external style sheet allows you to have hyperlinks from your page to the World Wide Web.</legend>
+                        <ul class="answer-list">
+                            <li><input type="radio" id="q2-a1" value="true" name="q2"><label>True</label></li>
+                            <li><input type="radio" id="q2-a2" value="false" name="q2"><label>False</label></li>
+                        </ul>
+                    </fieldset>
+                </div>
             </section>
 
             <section role="region" aria-labelledby="css-questions">
                 <h2 id="css-question">CSS</h2>
-
+            <div class="formrow">
                 <div>
                     <label for="q3">Are you a frontend developer</label>
                     <select id="q3">
                         <option value="">Select an option</option>
-                       <option value="yes">Yes</option> 
-                       <option value="no">No</option> 
+                        <option value="yes">Yes</option> 
+                        <option value="no">No</option> 
                     </select>
                 </div>
-
+                
                 <div>
                     <label for="q&a">Ask any question you have:</label>
-                        <textarea id="q&a" name="q&a" rows="6" cols="30" placeholder="Feel free to ask any question...."></textarea>
+                    <textarea id="q&a" name="q&a" rows="6" cols="30" placeholder="Feel free to ask any question...."></textarea>
                 </div>
+            </div>
             </section>
             <button type="submit" >Send</button>
         </form>
